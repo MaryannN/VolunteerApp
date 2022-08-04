@@ -25,11 +25,11 @@ def results():
 
   
   user_input = request.form
-  Choice = volunteer(user_input['location'])
+  choice = volunteer(user_input['location'])
   user_info = {
     'location': user_input['location'],
     'category': user_input['category'],
-    "opportunities": Choice
+    'opportunities': choice
   }
 
   return render_template('results.html', user_info=user_info)

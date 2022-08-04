@@ -1,0 +1,45 @@
+
+Volunteer App
+
+Directs NYC users to nearest volunteering opportunities and how to sign up. 
+
+Maybe differnt sections for differnt types of causes
+
+tutoring, clean ups (environmental), soup kitchens , summer camps 
+
+sign up page
+tell user closest volunteer opportunities
+#specific age groups 
+# direct website links to certain voulenteer positions
+#time commitment 
+filter location, dates, and categories 
+maybe connect to calendar?
+log hours - "you have volunteered _ hours"
+calendar with shifts
+
+if statements for user input
+
+The Five Boroughs of New York City
+Bronx
+Brooklyn
+Manhattan
+Queens
+Staten Island
+
+MVP #1
+- basic welcome page "welcome to our volunteering site, description"
+
+- list some organizations for corresponding boroughs 
+Bronx:https://www.myveryownblanket.org/
+https://www.myveryownblanket.org/
+https://www.cleanplanetproject.org/
+
+ 
+MVP #2
+- creating conditionals
+- form to input location and category 
+
+MVP #3
+- building dictionaries
+1 borough ()
+

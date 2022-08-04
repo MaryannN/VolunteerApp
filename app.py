@@ -13,9 +13,14 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route('/results')
+@app.route('/results', methods=['GET', 'POST'])
 def results():
-    return render_template("results.html")
-
+  category = request.form['category']
+  location = request.form['location']
+  if request.method == 'GET':
+    return "Here are your results"
+  else: 
+    return f"Here are {category} volunteering opportunities in {location}!"
+  
 
 app.run(host='0.0.0.0', port=81, debug=True)

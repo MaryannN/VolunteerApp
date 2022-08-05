@@ -1,5 +1,13 @@
 /*Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dosis&family=Nunito&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Comfortaa&family=Dosis&family=Nunito&family=Poppins&display=swap');
+
+/* Color Scheme:
+Blue: #0081A7
+Green: #00AFB9
+Yellow: #FDFCDC
+Orange: #FED9B7
+Red: #F07167
+*/
 
 body,html {
   width: 100%;
@@ -14,7 +22,10 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 
 h1{
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Calligraffitti', cursive;
+  font-weight: 700;
+  font-size: 50px;
+  color: #18708b;
   text-align: center;
 }
 
@@ -29,7 +40,13 @@ h4{
 
 a{
   text-decoration: none;
+  color: #0081A7;
 }
+
+/* .carousel-caption d-none d-md-block{
+  background-color: #00AFB9;
+  border-radius: 40px;
+} */
 
 .register{
   padding: 10px;
@@ -46,16 +63,40 @@ a{
 }
 
 .OppBox{
-  text-align: left;
-  background-color: #FED9B7;
+/*   text-align: left; */
+  background-color: #FDFCDC;
   margin: 20px;
   padding: 20px;
   border-radius: 40px;
+/*   width: 50%; */
+}
+
+.flexbuttons{
+  background-color: #F07167;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+/*   background-color: DodgerBlue; */
+  justify-content: center;
+}
+
+.flex-container > div {
+/*   background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 20px
 }
 
 footer {
   padding: 20px;
-  background-color: #f8f8f8;
+/*   background-color: #0081A7; */
   text-align: center;
-  position: sticky;
+  color: white;
+/*   position: sticky; */
+}
+body{
+  background-color: #a0e5ee;
+  text-align: center;
 }

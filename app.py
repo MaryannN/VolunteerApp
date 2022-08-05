@@ -25,7 +25,7 @@ def results():
 
   
   user_input = request.form
-  choice = volunteer(user_input['location'])
+  choice = volunteer(user_input['location'], user_input['category'])
   user_info = {
     'location': user_input['location'],
     'category': user_input['category'],

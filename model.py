@@ -1,49 +1,33 @@
 # Dictionaries 
-# maybe another dictionary/list element for link name so it doesnt all just say "bronx zoo" or whatev we hard code
-
-# x = {
-#  "Morris Park": ["https://bronxzoo.com/volunteering/discovery-guide-volunteer-program", ""] 
-#   "Baychester": ["https://www.nycservice.org/organizations/157", ""], 
-#   "Morris Park": ["https://bronxzoo.com/volunteering/discovery-guide-volunteer-program", ""], 
-#   "Fordham": ["https://potsbronx.org/english/", "https://www.bronxisblooming.org/"],
-#   "Riverdale": ["https://www.riverdaley.org/programs/volunteer/#overview", ""]
-# }
+# maybe another dictionary/list element for link name so it doesnt all just say "bronx zoo" or whatev we hard code - DONE
+# Very helpful when builing - https://www.volunteermatch.org/
 
 x = {
   "Baychester": {
-  #[
-  #   "https://bronxzoo.com/volunteering/discovery-guide-volunteer-program", "https://www.aspca.org/", "https://www.nycservice.org/organizations/157", "https://www.healthcare.gov/"
-  # ]
-    "Environmental": "https://bronxzoo.com/volunteering/discovery-guide-volunteer-program",
-    "Animal": "https://www.aspca.org/",
-    "Social": "https://www.nycservice.org/organizations/157",
-	"Healthcare": "https://www.healthcare.gov/"
+    "Environmental": ["http://www.greencitychallenge.org/", "Green City Challenge"],
+    "Animal": ["https://www.nycatcoal.org/", "New York City Cat Coalition"],
+    "Social": ["https://www.nycservice.org/organizations/157", "Baychester Youth Council"],
+	  "Healthcare": ["https://afyafoundation.org/", "Afya Foundation of America"]
   },
   "Morris Park": {
-    "Environmental" : "https://bronxzoo.com/volunteering/discovery-guide-volunteer-program",
-    "Animal": "morris animal",
-    "Social": "morris social",
-	"Healthcare": "morris health"
+    "Environmental": ["https://bronxzoo.com/volunteering/discovery-guide-volunteer-program", "Discovery Guide Volunteer Program - Bronx Zoo"],
+    "Animal": ["https://www.facebook.com/astoriacatrescue/", "Astoria Cat Rescue"],
+    "Social": ["https://southbronxunited.org/", "South Bronx United"],
+	  "Healthcare": ["http://www.littlesistersfamily.org/", "LSA Family Health Service"]
   },
   "Fordham": {
-    "Environmental" : "https://www.bronxisblooming.org/",
-    "Animal": "fordham animal",
-    "Social": "https://potsbronx.org/english/",
-	"Healthcare": "fordham health"
+    "Environmental": ["https://www.bronxisblooming.org/", "Bronx is Blooming"],
+    "Animal": ["https://www.searchandcare.org/", "Search and Care"],
+    "Social": ["https://potsbronx.org/english/", "POTS Bronx"],
+	  "Healthcare": ["http://www.mandalacafe.org/", "Mandala Cafe"]
   },
   "Riverdale": {
-    "Environmental" : "riverdale environment",
-    "Animal": "riverdale animal",
-    "Social": "https://www.riverdaley.org/programs/volunteer/#overview",
-	"Healthcare": "riverdale health"
+    "Environmental": ["https://bronxriver.org/", "Bronx River Alliance"],
+    "Animal": ["https://www.heartsandbonesrescue.com/", "Hearts & Bones Rescue"],
+    "Social": ["https://www.riverdaley.org/programs/volunteer/#overview", "Riverdale Y"],
+	  "Healthcare": ["https://locations.amedisys.com/nj/hackensack/amedisys-hospice-care.html", "Amedisys Hospice Services"]
   }
 }
 
 def volunteer(choice1, choice2):
   return x[choice1][choice2]
-  
-# Conditionals
-
-
-
-

@@ -13,7 +13,16 @@
     
     <h1>Results</h1>
     <h2>Here are {{user_info.category}} volunteering opportunities in {{user_info.location}}!</h2>
-    <a href= "{{user_info.opportunities.0}}">{{user_info.category}} {{user_info.location}}</a>
+    
+    <!--Voluteer Sites-->
+    <div class=OppBox>
+    <h4><a href= "{{user_info.opportunities.0}}" target="_blank">{{user_info.opportunities.1}}</a></h4>
+<!--     <p>{{user_info.opportunities.2}}</p> -->
+    </div>
+    
+    <a href="https://flask-template-v2022.raunakabichanda.repl.co/">
+      <button>Search Again</button>
+    </a> 
     
     <br><br>
       
